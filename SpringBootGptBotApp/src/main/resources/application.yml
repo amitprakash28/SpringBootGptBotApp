@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/gptBotDb?currentSchema=gptBot
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+server:
+  port: 8081
